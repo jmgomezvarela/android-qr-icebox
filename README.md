@@ -15,9 +15,15 @@ De esta forma, es posible hacer un uso racional de los alimentos conociendo la f
 ### Requerimientos minimos usuario:
 
 RAM: 512MB.
+
 Procesador: 1 Ghz.
+
 Memoria interna: 512Mb.
+
 Pantalla: 3,5 ''
+
 Camara: Resolucion minima de 1,3Mpx.
+
 Acceso a internet.
+
 Sistema Operativo: Android 2.2 o superior.
