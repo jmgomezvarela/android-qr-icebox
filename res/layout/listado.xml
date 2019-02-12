@@ -1,0 +1,26 @@
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+	<TableLayout android:id="@+id/tabla_cuerpo" android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#796C6C">
+		<TableRow  android:id="@+id/tableRow1" android:layout_width="match_parent" android:layout_height="wrap_content">
+			<TextView android:textColor="#000" android:textStyle="bold" android:gravity="center_horizontal"  android:background="#796C6C" android:layout_margin="1dip" android:id="@+id/textView1" android:layout_weight="0.3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Productos"></TextView>
+		</TableRow>
+	</TableLayout>
+
+	<ImageButton
+	    android:id="@+id/buttonBorrar"
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:src="@drawable/ic_menu_borrar"/>
+
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

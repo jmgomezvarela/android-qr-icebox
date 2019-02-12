@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="tesina.qr.FragmentTabAlta" x="839" y="428">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="modelo.dao.ProductoDao"/>
+        <Communication destinationClassName="modelo.vo.ProductoVo"/>
+    </Class>
+    <Class name="tesina.qr.FragmentTabListado" x="1006" y="116">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="modelo.vo.ProductoVo"
+            endpointName="productosList" kind="Simple"/>
+        <Communication destinationClassName="tesina.qr.utils.Utils"/>
+        <Communication destinationClassName="modelo.dao.Cache"/>
+        <Communication destinationClassName="modelo.dao.ProductoDao"/>
+        <Communication destinationClassName="modelo.vo.ProductoVo"/>
+    </Class>
+    <Class name="tesina.qr.utils.Utils.UtilsHolder" x="82" y="504">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="tesina.qr.utils.Utils"
+            endpointName="INSTANCE" kind="Simple"/>
+    </Class>
+    <Class name="tesina.qr.utils.Utils" x="61" y="416">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="modelo.dao.Cache" x="137" y="65">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="modelo.vo.ProductoVo"
+            endpointName="listaProductos" kind="Simple"/>
+    </Class>
+    <Class name="modelo.dao.ProductoDao" x="444" y="26">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="modelo.vo.ProductoVo"
+            endpointName="producto" kind="Simple">
+            <Point x="612" y="417"/>
+        </Association>
+        <Association destinationClassName="modelo.vo.ProductoVo"
+            endpointName="listaProducto" kind="Simple">
+            <Point x="559" y="229"/>
+        </Association>
+        <Communication destinationClassName="tesina.qr.utils.Utils"/>
+        <Communication destinationClassName="modelo.vo.ProductoVo"/>
+    </Class>
+    <Class name="tesina.qr.DialogDetalle" x="314" y="488">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="modelo.vo.ProductoVo"
+            endpointName="productosList" kind="Simple"/>
+        <Communication destinationClassName="modelo.dao.ProductoDao"/>
+        <Communication destinationClassName="modelo.vo.ProductoVo"/>
+    </Class>
+    <Class name="modelo.vo.ProductoVo" x="134" y="284">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="modelo.dao.Cache.CacheHolder" x="286" y="15">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="modelo.dao.Cache"
+            endpointName="INSTANCE" kind="Simple"/>
+    </Class>
+    <Class name="tesina.qr.ExcepcionesGenerales" x="841" y="62">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="tesina.qr.QRICEBOXActivity" x="990" y="243">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="modelo.conexion.Conexion" x="1073" y="20">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="tesina.qr.TabsListener" x="632" y="317">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>
